@@ -79,6 +79,11 @@ en:
       failed: "Unsuccessfull deletion"
     edit:
       wrong_user: "You can't do this action"
+    reset_password:
+      invalid_email: "Email address's not found"
+      send_email: "Email sent with password reset instructions"
+      title: "Password reset"
+      successed: "Password has been reset."
   login:
     title: "Login"
     signup: "Sign up now!"
@@ -94,3 +99,14 @@ en:
     confirm: "Are you sure?"
   activation:
     subject: "Acount activation"
+  reset_password:
+    title: "Password reset"
+    forgot_title: "Forgot password"
+    submit: "Submit"
+    mail_message1: "To reset your password click the link below:"
+    mail_message2: "This link will expire in two hours."
+    mail_message3: "If you did not request your password to be reset, please ignore this email and
+                    your password will stay as it is."
+    update: "Update"
+    invalid_link: "Invalid link"
+    link_expired: "Password reset has expired."

@@ -9,3 +9,5 @@ pixels:
   digit_80: 80
 per_page:
   digit_10: 10
+link_expired:
+  hours_2: 2
