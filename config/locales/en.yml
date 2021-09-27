@@ -4,6 +4,10 @@ en:
     home: "Home"
     help: "Help"
     login: "Log in"
+    users: "Users"
+    profile: "Profile"
+    settings: "Settings"
+    logout: "Log out"
   home:
     welcome: "Welcome to the Sample App"
     intro1: "This is the home page for the "
@@ -36,7 +40,10 @@ en:
     vi: "Vietnamse"
   activerecord:
     models:
-      user: "account"
+      user: "Account"
+  helpers:
+    submit:
+      create: "Create my %{model}"
   form:
     error: {
       one: "The form contains %{count} error.",
@@ -49,3 +56,11 @@ en:
       successed: "Welcome to the Sample App!"
     show:
       failed: "User's not exist, you can sign up here."
+    login:
+      failed: "Invalid email/password combination"
+      successed: "Log in successed"
+    logout: "Log out successed"
+  login:
+    title: "Login"
+    signup: "Sign up now!"
+
