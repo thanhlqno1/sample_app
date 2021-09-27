@@ -6,7 +6,7 @@ class User < ApplicationRecord
   validates :email, presence: true,
             length: {maximum: Settings.length.digit_255},
             format: {with: Settings.email_regrex}, uniqueness: true
-  validates :password, presence: true,
+  validates :password, presence: true, allow_nil: true,
             length: {minimum: Settings.length.digit_6}
   has_secure_password
   ATR_PERMIT = %i(name email password password_confirmation).freeze

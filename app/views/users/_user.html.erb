@@ -1,0 +1,8 @@
+<li>
+  <%= gravatar_for user, size: Settings.pixels.digit_50 %>
+  <%= link_to user.name, user %>
+  <% if authorize_delete user %>
+    | <%= link_to t("delete.title"), user, method: :delete,
+                  data: { confirm: t("delete.confirm") } %>
+  <% end %>
+</li>

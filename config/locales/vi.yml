@@ -51,6 +51,7 @@ vi:
     error: "Biểu mẫu chứa %{count} lỗi."
     signup: "Tạo tại khoản"
     remember: "Lưu tài khoản"
+    edit: "Lưu thay đổi"
   errors:
     messages:
       blank: "không được để trống hoặc chỉ chứa dấu cách nha."
@@ -69,8 +70,34 @@ vi:
       successed: "Đăng nhập thành công"
       invalid_email: "Thư điện tử không tồn tại"
       invalid_password: "Sai mật khẩu"
+      warning_user: "Vui lòng đăng nhập"
+      warning_admin: "Bạn phải là admin để thực hiện chức năng này"
     logout: "Đăng xuất thành công"
+    update:
+      successed: "Cập nhật thành công"
+      failed: "Cập nhật thất bại"
+    delete:
+      successed: "Tài khoản đã được xóa"
+      failed: "Xóa không thành công"
+    edit:
+      wrong_user: "Bạn không có quyền truy cập chức năng này"
   login:
     title: "Đăng nhập"
     signup: "Đăng ký ngay!"
-
+  edit:
+    title: "Chỉnh sửa thông tin"
+    head: "Cập nhật thông tin cá nhân"
+  avatar:
+    change: "Thay đổi"
+  index:
+    title: "Thành viên"
+  delete:
+    title: "xóa"
+    confirm: "Bạn chắc chứ?"
+  views:
+    pagination:
+      first: "&laquo; Đầu"
+      last: "Cuối &raquo;"
+      previous: "&lsaquo; Trước đó"
+      next: "Tiếp theo &rsaquo;"
+      truncate: "&hellip;"

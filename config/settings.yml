@@ -3,3 +3,9 @@ length:
   digit_50: 50
   digit_255: 255
 email_regrex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
+email_link: https://gravatar.com/emails
+pixels:
+  digit_50: 50
+  digit_80: 80
+per_page:
+  digit_10: 10

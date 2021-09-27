@@ -51,6 +51,7 @@ en:
     }
     signup: "Create my account"
     remember: "Remember me on this computer"
+    edit: "Save changes"
   flash:
     signup:
       failed: "Sign Up Failed"
@@ -62,8 +63,27 @@ en:
       successed: "Log in successed"
       invalid_email: "Email's not exist"
       invalid_password: "Wrong password"
+      warning_user: "Please log in"
+      warning_admin: "You must be admin to do this action"
     logout: "Log out successed"
+    update:
+      successed: "Profile updated"
+      failed: "Updating profile failed"
+    delete:
+      successed: "User's deleted"
+      failed: "Unsuccessfull deletion"
+    edit:
+      wrong_user: "You can't do this action"
   login:
     title: "Login"
     signup: "Sign up now!"
-
+  edit:
+    title: "Edit user"
+    head: "Update your profile"
+  avatar:
+    change: "Change"
+  index:
+    title: "All users"
+  delete:
+    title: "delete"
+    confirm: "Are you sure?"
