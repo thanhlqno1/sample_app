@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_action :logged_in_user, only: %i(index edit update)
+  before_action :logged_in_user, only: %i(index edit update following followers)
   before_action :load_user, except: %i(index create new)
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: :destroy
@@ -50,7 +50,22 @@ class UsersController < ApplicationController
     redirect_to users_url
   end
 
+  def following
+    load_relation :following
+  end
+
+  def followers
+    load_relation :followers
+  end
+
   private
+
+  def load_relation title
+    @title = t "stats.#{title}"
+    @users = @user.send(title.to_s).page(params[:page])
+                  .per(Settings.per_page.digit_10)
+    render "show_follow"
+  end
 
   def correct_user
     return if current_user?(@user)
