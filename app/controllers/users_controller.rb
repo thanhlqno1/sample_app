@@ -8,7 +8,10 @@ class UsersController < ApplicationController
     @users = User.all.page(params[:page]).per(Settings.per_page.digit_10)
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.newest.page(params[:page])
+                       .per(Settings.per_page.digit_5)
+  end
 
   def new
     @user = User.new
@@ -48,14 +51,6 @@ class UsersController < ApplicationController
   end
 
   private
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t("flash.login.warning_user")
-    redirect_to login_url
-  end
 
   def correct_user
     return if current_user?(@user)

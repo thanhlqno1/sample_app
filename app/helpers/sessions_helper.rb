@@ -53,4 +53,12 @@ module SessionsHelper
   def authorize_delete user
     current_user.admin? && !current_user?(user)
   end
+
+  def logged_in_user
+    return if logged_in?
+
+    store_location
+    flash[:danger] = t("flash.login.warning_user")
+    redirect_to login_url
+  end
 end
