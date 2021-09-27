@@ -1,0 +1,36 @@
+en:
+  header:
+    logo: "Sample App"
+    home: "Home"
+    help: "Help"
+    login: "Log in"
+  home:
+    welcome: "Welcome to the Sample App"
+    intro1: "This is the home page for the "
+    intro2: "sample application."
+    course: "Ruby on Rails Tutorial"
+    signup: "Sign up now!"
+  help:
+    title: "Help"
+    intro1: "Get help on the Ruby on Rails Tutorial at the "
+    intro2: "To get help on this sample app, see the "
+    link1: "Rails Tutorial help section. "
+    link2: "Ruby on Rails Tutorial book."
+  contact:
+    title: "Contact"
+    intro1: "Contact the Ruby on Rails Tutorial about the sample app at the "
+    link1: "contact page."
+  about:
+    welcome: "Welcome"
+    content: "The Ruby on Rails Tutorial, part of the Learn Enough family of tutorials, is a book and screencast series to teach web development with Ruby on Rails. This is the sample app for the tutorial. "
+  signup:
+    title: "Sign up"
+    content: "This will be a signup page for new users."
+  footer:
+    about: "About"
+    news: "News"
+    contact: "Contact"
+  base_title: "Ruby on Rails Tutorial Sample App"
+  lang:
+    en: "English"
+    vi: "Vietnamse"
