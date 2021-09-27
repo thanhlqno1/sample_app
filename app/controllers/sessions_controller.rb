@@ -1,14 +1,15 @@
 class SessionsController < ApplicationController
+  before_action :load_user, only: :create
+
   def new; end
 
   def create
-    user = User.find_by(email: params[:session][:email].downcase)
-    if user&.authenticate(params[:session][:password])
+    if @user.authenticate(params[:session][:password])
       flash[:success] = t("flash.login.successed")
-      log_in user
-      redirect_to user
+      log_in @user
+      redirect_to @user
     else
-      flash.now[:danger] = t("flash.login.failed")
+      flash.now[:danger] = t("flash.login.invalid_password")
       render :new
     end
   end
@@ -17,5 +18,15 @@ class SessionsController < ApplicationController
     flash[:success] = t("flash.logout")
     log_out
     redirect_to root_url
+  end
+
+  private
+
+  def load_user
+    @user = User.find_by(email: params[:session][:email].downcase)
+    return if @user
+
+    flash.now[:danger] = t("flash.login.invalid_email")
+    render :new
   end
 end

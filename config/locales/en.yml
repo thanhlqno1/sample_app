@@ -50,6 +50,7 @@ en:
       other: "The form contains %{count} errors."
     }
     signup: "Create my account"
+    remember: "Remember me on this computer"
   flash:
     signup:
       failed: "Sign Up Failed"
@@ -59,6 +60,8 @@ en:
     login:
       failed: "Invalid email/password combination"
       successed: "Log in successed"
+      invalid_email: "Email's not exist"
+      invalid_password: "Wrong password"
     logout: "Log out successed"
   login:
     title: "Login"
