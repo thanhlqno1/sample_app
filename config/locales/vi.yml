@@ -1,0 +1,36 @@
+vi:
+  header:
+    logo: "Ứng dụng mẫu"
+    home: "Trang chủ"
+    help: "Trợ giúp"
+    login: "Đăng nhập"
+  home:
+    welcome: "Chào mừng đến với ứng dụng mẫu"
+    intro1: "Đây là trang chủ cho "
+    intro2: "ứng dụng mẫu."
+    course: "khóa ROR cơ bản "
+    signup: "Đăng ký ngay"
+  help:
+    title: "Trợ giúp"
+    intro1: "Nhận trợ giúp cho ROR tại "
+    intro2: "Để nhận giúp trên ứng dụng mẫu này, xem tại "
+    link1: "Khóa trợ giúp của Rails. "
+    link2: "Sách hướng dẫn ROR."
+  contact:
+    title: "Liên hệ"
+    intro1: "Liên hệ khóa cơ bản ROR về ứng dụng mẫu tại "
+    link1: "trang liên lạc."
+  about:
+    welcome: "Chào bạn"
+    content: "The Ruby on Rails Tutorial, là 1 phần của Learn Enough family of tutorials, là cuốn sách dạy phát triển web với Ruby on Rails. Đây là ứng dụng mẫu cho khóa này. "
+  signup:
+    title: "Đăng ký"
+    content: "Đây là trang đăng ký cho người dùng mới."
+  footer:
+    about: "Giới thiệu"
+    news: "Tin mới"
+    contact: "Liên hệ"
+  base_title: "Ứng dụng mẫu trên ROR"
+  lang:
+    en: "Tiếng Anh"
+    vi: "Tiếng Việt"
