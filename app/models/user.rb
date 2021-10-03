@@ -9,6 +9,7 @@ class User < ApplicationRecord
   validates :password, presence: true,
             length: {minimum: Settings.length.digit_6}
   has_secure_password
+  ATR_PERMIT = %i(name email password password_confirmation).freeze
 
   private
 
