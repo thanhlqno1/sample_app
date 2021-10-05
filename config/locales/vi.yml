@@ -50,6 +50,7 @@ vi:
   form:
     error: "Biểu mẫu chứa %{count} lỗi."
     signup: "Tạo tại khoản"
+    remember: "Lưu tài khoản"
   errors:
     messages:
       blank: "không được để trống hoặc chỉ chứa dấu cách nha."
@@ -66,6 +67,8 @@ vi:
     login:
       failed: "Lỗi thư điện tử/mật khẩu hoặc cả 2 đều chưa đúng"
       successed: "Đăng nhập thành công"
+      invalid_email: "Thư điện tử không tồn tại"
+      invalid_password: "Sai mật khẩu"
     logout: "Đăng xuất thành công"
   login:
     title: "Đăng nhập"
