@@ -1,0 +1,8 @@
+<h1><%= t("header.logo") %></h1>
+<p><%= t("about.welcome") %>
+   <%= @user.name %>,
+ </p>
+<p><%= t("signup.mail_message") %></p>
+<%= link_to t("signup.activate"),
+            edit_account_activation_url(id: @user.activation_token,
+            email: @user.email, locale: locale) %>

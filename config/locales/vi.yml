@@ -25,11 +25,13 @@ vi:
     intro1: "Liên hệ khóa cơ bản ROR về ứng dụng mẫu tại "
     link1: "trang liên lạc."
   about:
-    welcome: "Chào bạn"
+    welcome: "Chào bạn "
     content: "The Ruby on Rails Tutorial, là 1 phần của Learn Enough family of tutorials, là cuốn sách dạy phát triển web với Ruby on Rails. Đây là ứng dụng mẫu cho khóa này. "
   signup:
     title: "Đăng ký"
     content: "Đây là trang đăng ký cho người dùng mới."
+    mail_message: "Chào mừng đến với ứng dụng mẫu, vui lòng nhấn vào link bên dưới để kích hoạt tài khoản:"
+    activate: "Kích hoat"
   footer:
     about: "Giới thiệu"
     news: "Tin mới"
@@ -61,8 +63,11 @@ vi:
       confirmation: "không giống với mật khẩu ở trên nha."
   flash:
     signup:
+      activate: "Kiểm tra thư điện tử để kích hoạt tài khoản nhé!"
       failed: "Đăng ký chưa thành công, sửa lại form theo hướng dẫn giúp mình nhé!"
       successed: "Chào mừng tân binh hen ~~"
+      invalid_activate: "Link kích hoạt không hợp lệ"
+      activate_already: "Tài khoản đã được kích hoạt trước đó"
     show:
       failed: "User không tồn tại, bạn có thể đăng ký tại đây"
     login:
@@ -70,6 +75,7 @@ vi:
       successed: "Đăng nhập thành công"
       invalid_email: "Thư điện tử không tồn tại"
       invalid_password: "Sai mật khẩu"
+      invalid_activate: "Tài khoản chưa được kích hoạt, vui lòng kiểm tra link kích hoạt trên email nha."
       warning_user: "Vui lòng đăng nhập"
       warning_admin: "Bạn phải là admin để thực hiện chức năng này"
     logout: "Đăng xuất thành công"
@@ -101,3 +107,5 @@ vi:
       previous: "&lsaquo; Trước đó"
       next: "Tiếp theo &rsaquo;"
       truncate: "&hellip;"
+  activation:
+    subject: "Kích hoạt tài khoản"
