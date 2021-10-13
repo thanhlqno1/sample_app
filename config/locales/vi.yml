@@ -87,6 +87,11 @@ vi:
       failed: "Xóa không thành công"
     edit:
       wrong_user: "Bạn không có quyền truy cập chức năng này"
+    reset_password:
+      invalid_email: "Không tìm thấy địa chỉ email"
+      send_email: "Đã gửi email với hướng dẫn đặt lại mật khẩu"
+      title: "Đặt lại mật khẩu"
+      successed: "Đặt lại mật khẩu thành công"
   login:
     title: "Đăng nhập"
     signup: "Đăng ký ngay!"
@@ -109,3 +114,13 @@ vi:
       truncate: "&hellip;"
   activation:
     subject: "Kích hoạt tài khoản"
+  reset_password:
+    title: "Đặt lại mật khẩu"
+    forgot_title: "Quên mật khẩu"
+    submit: "Xác minh"
+    mail_message1: "Để đặt lại mật khẩu vui lòng nhấn vào link bên dưới:"
+    mail_message2: "Liên kết này sẽ hết hạn sau 2 tiếng."
+    mail_message3: "Nếu bạn không yêu cầu đổi mật khẩu, hãy lờ đi thư này."
+    update: "Cập nhật"
+    invalid_link: "Liên kết không đúng"
+    link_expired: "Liên kết này đã hết hạn dùng."
