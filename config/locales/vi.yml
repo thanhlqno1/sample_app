@@ -83,7 +83,7 @@ vi:
       successed: "Cập nhật thành công"
       failed: "Cập nhật thất bại"
     delete:
-      successed: "Tài khoản đã được xóa"
+      successed: "Xóa thành công"
       failed: "Xóa không thành công"
     edit:
       wrong_user: "Bạn không có quyền truy cập chức năng này"
@@ -124,3 +124,14 @@ vi:
     update: "Cập nhật"
     invalid_link: "Liên kết không đúng"
     link_expired: "Liên kết này đã hết hạn dùng."
+  micropost:
+    title: "Bài đăng"
+    count: "%{count} bài viết"
+    create:
+      successed: "Tạo bài viết thành công"
+      failed: "Tạo bài viết thất bại"
+    place_holder: "Viết gì đó mới nào"
+    post: "Đăng bài viết"
+    posted: "Đã đăng %{count} trước."
+    feed: "Nội dung mới nhất"
+    invalid_user: "Bạn không phải chủ của bài đăng này"

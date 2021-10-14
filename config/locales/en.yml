@@ -75,7 +75,7 @@ en:
       successed: "Profile updated"
       failed: "Updating profile failed"
     delete:
-      successed: "User's deleted"
+      successed: "Successful deletetion"
       failed: "Unsuccessfull deletion"
     edit:
       wrong_user: "You can't do this action"
@@ -110,3 +110,17 @@ en:
     update: "Update"
     invalid_link: "Invalid link"
     link_expired: "Password reset has expired."
+  micropost:
+    title: "Micropost"
+    count: {
+      one: "%{count} micropost",
+      other: "%{count} microposts"
+    }
+    create:
+      successed: "Micropost's created"
+      failed: "Micropost's not created"
+    place_holder: "Compose new micropost..."
+    post: "Post"
+    posted: "Posted %{count} ago."
+    feed: "Micropost feed"
+    invalid_user: "You dont own this post"
