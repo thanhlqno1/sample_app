@@ -1,6 +1,6 @@
 class MicropostsController < ApplicationController
   before_action :logged_in_user, only: %i(create destroy)
-  before_action :correct_user, only: :destroy
+  before_action :load_micropost_by_current_user, only: :destroy
 
   def create
     @micropost = current_user.microposts.build(micropost_params)

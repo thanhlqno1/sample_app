@@ -124,3 +124,10 @@ en:
     posted: "Posted %{count} ago."
     feed: "Micropost feed"
     invalid_user: "You dont own this post"
+  stats:
+    following: "Following"
+    followers: "Followers"
+    follow: "Follow"
+    unfollow: "Unfollow"
+  relation:
+    invalid_followed: "You are not following this user"

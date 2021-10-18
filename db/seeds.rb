@@ -25,3 +25,6 @@ content = Faker::Lorem.sentence(word_count: 5)
 users.each {|user| user.microposts.create(content: content,
                                            created_at: created_at)}
 end
+
+users = User.all
+users.each {|user| user.follow users.excluding(user)}

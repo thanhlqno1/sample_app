@@ -135,3 +135,10 @@ vi:
     posted: "Đã đăng %{count} trước."
     feed: "Nội dung mới nhất"
     invalid_user: "Bạn không phải chủ của bài đăng này"
+  stats:
+    following: "Đang theo dõi"
+    followers: "Theo dõi"
+    follow: "Theo dõi"
+    unfollow: "Hủy theo dõi"
+  relation:
+    invalid_followed: "Bạn đang không theo dõi người này"
